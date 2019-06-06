@@ -3,13 +3,8 @@ name: default
 
 steps:
 - name: frontend
-  image: node
+  image: ubuntu
   commands:
-  - npm install
-  - npm test
+  - apt-get update
+  - apt-get install apache2
 
-- name: backend
-  image: golang
-  commands:
-  - go build
-  - go test
