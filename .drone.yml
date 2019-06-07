@@ -3,5 +3,4 @@ pipeline:
   build:
     image: ubuntu:18.04
     commands:
-      - ./test1.sh
       - ./test.sh
