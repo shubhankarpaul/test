@@ -1,5 +1,4 @@
 echo "Testing..."
-
 sleep 1
 echo "1 sec"
 sleep 1
