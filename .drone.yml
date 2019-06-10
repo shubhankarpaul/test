@@ -1,6 +1,6 @@
 pipeline:
 
-  build:
+  builds:
     image: ubuntu-ssh1:18.04
     commands:
       - ./test.sh
