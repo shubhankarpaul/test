@@ -1,6 +1,6 @@
 pipeline:
 
   builds:
-    image: ubuntu-ssh1:18.04
+    image: maven:v1
     commands:
       - ./test.sh
