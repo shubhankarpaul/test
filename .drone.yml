@@ -1,6 +1,6 @@
 pipeline:
 
   builds:
-    image: mavan:letest
+    image: maven:letest
     commands:
       - ./test.sh
