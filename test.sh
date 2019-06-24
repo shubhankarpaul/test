@@ -2,5 +2,5 @@
 mvn -v
 pwd
 mvn compile
-mvn build
+#mvn build
 ls -l
