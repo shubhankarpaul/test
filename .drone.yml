@@ -1,8 +1,6 @@
 pipeline:
 
-cimage: &cimage
-  image: maven:latest
   builds:
-    <<: *cimage
+    image: mavan:letest
     commands:
       - ./test.sh
