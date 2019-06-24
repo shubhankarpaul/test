@@ -1,12 +1,12 @@
 #!/bin/bash
 mvn -v
 pwd
-mvn compile
+mvn -Dmaven.javadoc.skip=true verify && mvn compile
 echo ""
 echo ""
 echo "DONE COMPILE"
 echo ""
 echo ""
-mvn clean install
+mvn -Dmaven.javadoc.skip=true verify && mvn clean install
 #mvn build
 ls -l
