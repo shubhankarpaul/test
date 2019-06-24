@@ -1,4 +1,4 @@
 #!/bin/bash
-mvn -v
+#mvn -v
 #mvn compile
 echo $WORKDIR
