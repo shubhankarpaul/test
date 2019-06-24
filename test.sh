@@ -1,5 +1,6 @@
 #!/bin/bash
-#mvn -v
+mvn -v
 pwd
-#mvn compile
-#mvn build
+mvn compile
+mvn build
+ls -l
