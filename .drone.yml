@@ -1,6 +1,6 @@
 pipeline:
 
   builds:
-    image: maven:v1
+    image: maven:latest
     commands:
       - ./test.sh
