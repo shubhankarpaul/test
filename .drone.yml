@@ -1,8 +1,7 @@
 pipeline:
 
 cimage: &cimage
-   image: maven:latest
-
+  image: maven:latest
   builds:
     <<: *cimage
     commands:
