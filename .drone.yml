@@ -4,7 +4,4 @@ pipeline:
     image: maven:latest
     commands:
       - ./test.sh
-  Build:
-    image: maven:latest
-    commands:
-      - ./build.sh
+  
