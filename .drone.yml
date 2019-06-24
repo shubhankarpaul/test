@@ -1,6 +1,9 @@
 pipeline:
 
-  builds:
+  compile:
     image: maven:latest
     commands:
       - ./test.sh
+  Build:
+    commands:
+      - ./build.sh
