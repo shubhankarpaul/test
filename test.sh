@@ -1,3 +1,4 @@
 #!/bin/bash
 mvn -v
-mvn compile
+#mvn compile
+echo $WORKDIR
