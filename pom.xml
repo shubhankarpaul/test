@@ -6,7 +6,7 @@
 
   <groupId>com.try2answer.drone</groupId>
   <artifactId>mvntest</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <name>mvntest</name>
   <!-- FIXME change it to the project's website -->
